@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      National Dong Hwa University - Long-Term Socio-Ecological Research Hualien
+    </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: '"Noto Sans TC", Arial, sans-serif',
+          },
+          container: {
+            padding: "1rem",
+            center: true,
+            screens: {
+              xl: "1024px",
+            },
+          },
+          extend: {
+            backgroundImage: {},
+            opacity: {
+              15: "0.15",
+            },
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content-auto bg-[#F6F6F6]">
+      <div class="container h-[calc(85vh)] flex items-center">
+        <div class="text-center w-full">
+          <h1 class="text-[22px] sm:text-[25px] md:text-[35px] lg:text-[45px]">
+            Hold on, we are still working on this page.
+          </h1>
+          <p class="md:text-[20px]">Please check back later.</p>
+          <p class="md:text-[20px] my-6 text-zinc-400">
+            - Long-Term Socio-Ecological Research Hualien -
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="text-center text-zinc-600 normal font-light text-[14px] pt-16 pb-32"
+    >
+      <p class="text-md md:text-lg">
+        國立東華大學 - 臺灣長期社會生態核心觀測站
+      </p>
+      <p class="text-[10px] md:text-[14px]">
+        Copyright © 2023 National Dong Hwa University - Long-Term
+        Socio-Ecological Research Hualien
+      </p>
+    </footer>
+  </body>
+</html>
